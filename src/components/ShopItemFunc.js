@@ -11,7 +11,7 @@ function ShopItemFunc ({item}) {
       <div className="highlight-window mobile"><div className="highlight-overlay"></div></div>
       <div className="divider"></div>
       <div className="purchase-info">
-        <div className="price">{ item.price + item.currency }</div>
+        <div className="price">{ item.currency + item.price + '.00'}</div>
         <button>Добавить в корзину</button>
       </div>
     </div>
